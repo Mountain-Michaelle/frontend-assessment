@@ -1,0 +1,12 @@
+
+
+@media (max-width: 261px) {
+    .crd{
+        display: flex !important;
+        flex-direction: column !important;
+        font-size: 12px;
+        margin-top: 5px; 
+    } 
+}
+
+   

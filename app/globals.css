@@ -1,8 +1,10 @@
 @import "tailwindcss";
+@config "../tailwind.config.ts";
 
 :root {
   --background: #ffffff;
   --foreground: #171717;
+  --btn-bg: #013941;
 }
 
 @theme inline {
