@@ -42,9 +42,9 @@ export default function CryptoToCryptoConvert({ state, onChange, onSubmit, error
 
        <div className='w-[90%] relative mt-9 '>
           <button
-          className={`${loading && 'text-[#e6fbf2]/30'} bg-btn_bg w-full py-5 px-10 text-lg
+          className={`${loading && 'text-[#e6fbf2]/30'} bg-btn_bg w-full py-3 md:py-5 px-10 text-lg
            rounded-[30px] text-[#E6FBF2] text-[16px]`}
-          
+           disabled={loading}
           onClick={onSubmit}
         >
            {
