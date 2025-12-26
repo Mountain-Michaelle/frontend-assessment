@@ -18,7 +18,7 @@ export default function CryptoToCashConvert({ state, onChange, loading, errors, 
 
 
   return (
-    <div className="py-5 w-full sm:[70%] md:max-w-150 shadow-lg">
+    <div className="py-5 w-full sm:[70%] md:max-w-150 md:shadow-lg">
       <div className="flex w-full justify-center items-center flex-col gap-4" >
         <div className="p-3 flex justify-between w-[90%] border border-brd rounded-3xl">
           <div className="flex flex-col gap-2">
