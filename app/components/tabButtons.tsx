@@ -9,7 +9,7 @@ export default function TabButtons({activeTab, onChange}:TabProps) {
   
   return (
     <div className=" w-[98%] md:w-100 ">
-      <div className='mt-7 flex'>
+      <div className='mt-16 md:mt-8 flex'>
           <div  className="flex crd md:flex-row w-full  bg-gray-100 rounded-2xl ">
 
        { tabs.map((tab, _) => (
